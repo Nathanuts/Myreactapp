@@ -16,7 +16,7 @@ function Cards() {
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='/cdn-cgi/image/width=20,quality=50/images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
