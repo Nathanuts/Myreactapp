@@ -54,7 +54,9 @@ function Navbar() {
               <Link
                 to='/products'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick="dataLayer.push({
+                  'tripCategory': 'skiing',
+                  'tripLocation':'Swiss'})"
               >
                 Products
               </Link>
